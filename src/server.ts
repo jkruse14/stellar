@@ -2,7 +2,7 @@ import * as bodyParser from 'body-parser';
 import * as dotenv from 'dotenv';
 import * as express from 'express';
 
-import * as homeController from './controllers/home-controller';
+import homeController from './controllers/home-controller';
 
 dotenv.config();
 
